@@ -1,0 +1,200 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pic{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Pictures/mesh-background-portfolio-lglines.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .profile{
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    clip-path: circle();
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+
+  .profile2{
+    border: 5px solid black;
+    height: 60vh;
+    width: 300px;
+    margin-top: 115px;
+    margin-bottom: 115px;
+    margin-left: 800px;
+  }
+
+  .content{
+    padding: 30px;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    transform: translateY(-50%);
+  }
+
+  .content2{
+    letter-spacing: 1px;
+    padding: 2px;
+    position: absolute;
+    top: 145%;
+    margin-right: 600px;
+    left: 20%;
+    transform: translateY(-50%);
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  /* Add styles for the logo container */
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Add styles for the logo font */
+  .logo-font {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+  
+  /* Add styles for the logo text */
+  .logo-text {
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    text-align: right;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover{
+    color: blueviolet;
+    transition: 0s;
+  }
+  
+  nav ul li.active a {
+    color: blueviolet;
+    border-bottom: 2px solid blueviolet;
+  }
+  
+  .h1 {
+    color: #333;
+    font-size: 36px;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  h1{
+    color: #333;
+    margin: 20px 0px 20px;
+    font-size: 45px;
+  }
+
+  h4{
+    color: #333;
+  }
+
+  h2{
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #444;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .picture1{
+    border: 5px solid black;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 170px;
+  }
+
+  .picture2{
+    border: 5px solid black;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left:170px;
+  }
+
+  .picture3{
+    border: 5px solid black;
+    height: 300px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+  }
+  
